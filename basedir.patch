@@ -1,0 +1,11 @@
+--- ccache-2.4/ccache.c	2004-09-13 05:38:30.000000000 -0500
++++ ccache-2.4/ccache.c.new	2006-12-12 16:23:06.000000000 -0600
+@@ -983,7 +983,7 @@
+ 
+ 	cache_dir = getenv("CCACHE_DIR");
+ 	if (!cache_dir) {
+-		x_asprintf(&cache_dir, "%s/.ccache", get_home_directory());
++		x_asprintf(&cache_dir, "/.ccache", get_home_directory());
+ 	}
+ 
+ 	temp_dir = getenv("CCACHE_TEMPDIR");

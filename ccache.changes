@@ -1,0 +1,33 @@
+* Thu Dec 25 2008 Arjan van de Ven <arjan@linux.intel.com> 2.4
+- Fix Source: to be a resolvable URL
+* Tue Jan 29 2008 maw@suse.de
+- Increase the maximum cache size.
+* Fri Nov 30 2007 maw@suse.de
+- Clean spec file a bit.
+* Fri Feb 23 2007 maw@suse.de
+- Add maxsize.patch, raising the cache's size to a generous 3GB.
+* Tue Dec 12 2006 maw@suse.de
+- Include a symlink for c++, too.
+* Tue Dec 12 2006 maw@suse.de
+- Add symlinks to make ccache be transparently invoked when calling
+  "gcc", "g++", or "cc"
+- Create and package /.ccache, and make sure its sticky bit is set
+  and that it's mode g+s.
+* Tue Dec 12 2006 maw@suse.de
+- Import into the openSUSE build service.
+* Wed Jan 25 2006 mls@suse.de
+- converted neededforbuild to BuildRequires
+* Wed Sep 28 2005 dmueller@suse.de
+- add norootforbuild
+* Wed Sep 28 2005 dmueller@suse.de
+- add norootforbuild
+* Thu Oct 21 2004 ltinkl@suse.cz
+- update to version 2.4
+* Mon Sep 29 2003 ltinkl@suse.cz
+- update to version 2.3
+* Wed Jul  9 2003 ltinkl@suse.cz
+- updated sources to version 2.2
+* Fri Mar 28 2003 vbobek@suse.cz
+- provides binary from older distcc package [#25806]
+* Mon Feb 10 2003 vbobek@suse.cz
+- initial suse release 2.1.1

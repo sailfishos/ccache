@@ -1,0 +1,11 @@
+--- ccache-2.4/ccache.c	2004-09-13 05:38:30.000000000 -0500
++++ ccache-2.4/ccache.c.new	2006-12-12 17:14:29.000000000 -0600
+@@ -1006,6 +1006,8 @@
+ 			umask(mask);
+ 		}
+ 	}
++    /* We ignore the above and set it ourselves now.  Muahaha.  */
++    umask(002);
+ 
+ 
+ 	/* check if we are being invoked as "ccache" */
