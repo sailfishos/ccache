@@ -1,3 +1,10 @@
+* Sat Mar 23 2013 Islam Amer <islam.amer@jollamobile.com> - 3.1.9
+- Update to latest release
+- Remove unneeded patches
+- Rewrite spec file
+- Remove /usr/local/ symlinks and /.ccache and depend on osc or user to setup the needed env
+- Contributes to MER#532
+
 * Thu Dec 25 2008 Arjan van de Ven <arjan@linux.intel.com> 2.4
 - Fix Source: to be a resolvable URL
 * Tue Jan 29 2008 maw@suse.de

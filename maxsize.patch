@@ -1,11 +1,11 @@
---- ccache.h.orig	2007-02-23 14:03:12.000000000 -0600
-+++ ccache.h	2007-02-23 14:03:23.000000000 -0600
-@@ -33,7 +33,7 @@
+--- ccache-3.1.9-orig/stats.c	2013-01-06 18:57:59.000000000 +0200
++++ ccache-3.1.9/stats.c	2013-03-22 18:51:27.143254648 +0200
+@@ -41,7 +41,7 @@
  
  /* default maximum cache size */
  #ifndef DEFAULT_MAXSIZE
--#define DEFAULT_MAXSIZE (1000*1000)
-+#define DEFAULT_MAXSIZE (1000*1000 * 5)
+-#define DEFAULT_MAXSIZE (1024*1024)
++#define DEFAULT_MAXSIZE (1024*1024*5)
  #endif
  
- enum stats {
+ #define FLAG_NOZERO 1 /* don't zero with the -z option */
