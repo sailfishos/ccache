@@ -1,0 +1,3 @@
+[submodule "ccache"]
+	path = ccache
+	url = https://github.com/sailfishos-mirror/ccache.git
